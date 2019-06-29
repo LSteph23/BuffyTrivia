@@ -49,9 +49,9 @@ $(document).ready(function() {
 	    image: ""
 	  },
 	  {
-	    question: "Anya first appears in season: ",
-	    choices: ["Two", "Five", "Three", "Six"],
-	    correctAnswer: "Three",
+	    question: "Until Season Seven, who are the other slayers present in the series? ",
+	    choices: ["Kendra & Anya", "Harmony & Nikki", "Faith & Harmony", "Faith & Kendra"],
+	    correctAnswer: "Faith & Kenya",
 	    image: ""
 	  },
 	  {
@@ -101,7 +101,14 @@ $(document).ready(function() {
 	    choices: ["Buffy", "Anya", "Dawn", "Tara"],
 	    correctAnswer: "Tara",
 	    image: ""
-	  }];
+      },
+      {
+	    question: "Which actor did NOT make an appearance on Buffy?",
+	    choices: ["David Ritter", "Amy Adams", "Nathan Fillion", "Vincent Kartheiser"],
+	    correctAnswer: "Vincent Kartheiser (Sorry he was on Angel!)",
+	    image: ""
+
+      }];
 	  
 
 	// create question contents according to question count
@@ -168,7 +175,7 @@ $(document).ready(function() {
 			var bottomText = "'Just because you’re better than us doesn’t mean you can be all superior.' – Xander Harris";
 		}
 		else if (correctGuesses > incorrectGuesses) {
-			var endMessage = "Good work! But do better you can...";
+			var endMessage = "Good work! Just brush up on some Chosen One facts";
 			var bottomText =  "'I may be dead, but I’m still pretty. Which is more than I can say for you.' – Buffy Summers";
 		}
 		else {
