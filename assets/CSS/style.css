@@ -1,0 +1,57 @@
+body { 
+	background: url(../images/buffy-background2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+	cursor: url(../images/controller.png), auto;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Press Start To Play', cursive;
+	color: white;
+	padding: 25px;
+	text-shadow: 2px 2px red;
+}
+title {
+    padding: 0 20px;
+}
+
+.answer,
+#timer {
+	font-weight: 900;
+}
+
+#start {
+	color: black;
+}
+
+.choices {
+	text-align: center;
+	border: groove 2px black;
+	border-radius: 5%;
+	margin: 0 35%;
+}
+
+.choices:hover {
+	background-color: red;
+	color: white;
+}
+
+#gameScreen {
+	-webkit-box-shadow: 7px 5px 47px 0px rgba(255,0,0,0.76);
+	-moz-box-shadow: 7px 5px 47px 0px rgba(255,0,0,0.76);
+	box-shadow: 7px 5px 47px 0px rgba(255,0,0,0.76);
+}
+
+/* .shadow {
+	-webkit-box-shadow: -7px 6px 5px -1px rgba(255,0,0,0.79);
+	-moz-box-shadow: -7px 6px 5px -1px rgba(255,0,0,0.79);
+	box-shadow: -7px 6px 5px -1px rgba(255,0,0,0.79);
+} */
