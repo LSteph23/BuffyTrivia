@@ -51,7 +51,7 @@ $(document).ready(function() {
 	  {
 	    question: "Until Season Seven, who are the other slayers present in the series? ",
 	    choices: ["Kendra & Anya", "Harmony & Nikki", "Faith & Harmony", "Faith & Kendra"],
-	    correctAnswer: "Faith & Kenya",
+	    correctAnswer: "Faith & Kendra",
 	    image: ""
 	  },
 	  {
@@ -87,7 +87,7 @@ $(document).ready(function() {
 	  {
 	    question: "What seasons have Halloween episodes?",
 	    choices: ["Two, Four, & Six", "One, Three, & Five", "One & Seven", "One, Five, & Seven"],
-	    correctAnswer: "Bioware",
+	    correctAnswer: "Two, Four, & Six",
 	    image: ""
 	  },
 	  {
@@ -105,7 +105,7 @@ $(document).ready(function() {
       {
 	    question: "Which actor did NOT make an appearance on Buffy?",
 	    choices: ["David Ritter", "Amy Adams", "Nathan Fillion", "Vincent Kartheiser"],
-	    correctAnswer: "Vincent Kartheiser (Sorry he was on Angel!)",
+	    correctAnswer: "Vincent Kartheiser",
 	    image: ""
 
       }];
