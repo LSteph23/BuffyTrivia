@@ -4,7 +4,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	font-family: 'Roboto', sans-serif;
+	font-family: sans-serif;
 }
 
 html {
@@ -50,8 +50,8 @@ title {
 	box-shadow: 7px 5px 47px 0px rgba(255,0,0,0.76);
 }
 
-/* .shadow {
+.shadow {
 	-webkit-box-shadow: -7px 6px 5px -1px rgba(255,0,0,0.79);
 	-moz-box-shadow: -7px 6px 5px -1px rgba(255,0,0,0.79);
 	box-shadow: -7px 6px 5px -1px rgba(255,0,0,0.79);
-} */
+}

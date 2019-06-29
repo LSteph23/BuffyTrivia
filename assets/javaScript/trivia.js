@@ -111,9 +111,8 @@ $(document).ready(function() {
       }];
 	  
 
-	// create question contents according to question count
 	function questionContent() {
-		// a for loop would be cool here...
+	
     	$("#gameScreen").append("<p><strong>" + 
     		questions[questionCounter].question + 
     		"</p><p class='choices'>" + 
@@ -168,7 +167,7 @@ $(document).ready(function() {
 		}
 	}
 
-	// screen that shows final score and nice message :)
+	// screen that shows final score
 	function resultsScreen() {
 		if (correctGuesses === questions.length) {
 			var endMessage = "Perfection! You truly know your Buffyverse";
